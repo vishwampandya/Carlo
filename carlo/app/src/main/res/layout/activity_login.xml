@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/img"
+        android:src="@drawable/logo"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/img"
+
+        >
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/email"
+            android:hint="Email"
+            android:padding="10dp"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/pass"
+            android:hint="Password"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register as a User"
+            android:layout_marginTop="10dp"
+            android:textColor="#0000ff"
+            android:id="@+id/rau"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register as a Owner"
+            android:layout_marginTop="10dp"
+            android:textColor="#0000ff"
+            android:id="@+id/rao"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

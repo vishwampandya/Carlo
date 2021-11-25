@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Carlo</string>
+<!--    <string name="host">http://carlo01.000webhostapp.com/</string>-->
+    <string name="host">http://192.168.29.56/carlo/</string>
+    <string name="invaidEmail">Enter valid Email Address</string>
+    <string name="invalidPass">Please Enter minimum 6 character Password</string>
+    <string name="validname">No special symbol allowed in name</string>
+    <string name="invalidadd">Minimum 6 characters address required</string>
+    <string name="invalidphone">Phone number must be 10 digits</string>
+    <string name="cpass">password must be equval to confirm password</string>
+    <string name="invalidupi">Enter Valid Upi ID (...@...)</string>
+    <string name="invalidfeed">Please insert more than 20  characters in feddback</string>
+    <string name="invalidmodel">Please insert minimum 2 character in model field</string>
+    <string name="invalidcomp">Please insert more than 3 characters in car company</string>
+    <string name="invalidprice">Please enter valid digit in price field</string>
+
+</resources>
